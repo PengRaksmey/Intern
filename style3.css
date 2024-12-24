@@ -1,0 +1,96 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+div {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555555;
+}
+
+/* Input fields and select dropdowns */
+input[type="text"], input[type="date"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f8f8f8;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="date"]:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: #ffffff;
+}
+
+/* Radio buttons */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Error message */
+p {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    div {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    input[type="submit"] {
+        font-size: 14px;
+    }
+}

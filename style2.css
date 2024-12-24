@@ -1,0 +1,7 @@
+.text-field{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 300px;
+}
+
