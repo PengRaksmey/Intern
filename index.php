@@ -39,6 +39,7 @@ if (isset($_POST['submit'])) {
             <input type="submit" name="submit" class="login-btn" value="Add"> 
         </form>
     </div>
-    <a href="staff.php">Go to staff input</a>
+    <a href="staff.php">Go to staff section</a>
+    <a href="student.php">Go to student section</a>
 </body>
 </html>

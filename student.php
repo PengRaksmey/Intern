@@ -64,6 +64,8 @@ $info = $conn->query($sql);
             <input type="submit" name="submit" class="" value="Add">
         </div>
     </form>
+    <a href="index.php">Go to School section</a>
+    <a href="staff.php">Go to staff section</a>
 </body>
 
 </html>
