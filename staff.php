@@ -59,7 +59,7 @@ $info = $conn->query($sql);
             <input type="radio" name="gender" id="" value="male" required>
             <label for="gender">Female</label>
             <input type="radio" name="gender" id="" value="female" required><br>
-            <label for="school-id">School</label>
+            <!-- <label for="school-id">School</label> -->
             <select name="school-id" id="" required>
                 <option value="">Select School..</option>
                 <?php while ($row = $info->fetch_assoc()) { ?>
@@ -71,7 +71,7 @@ $info = $conn->query($sql);
         </div>
         <input type="submit" name="submit" class="" value="Add"> 
     </form>
-    <a href="student.php">Go to students secction</a>
+    <a href="student.php">Go to students section</a><br>
     <a href="index.php">GO to school section</a>
 </div>
 </body>
