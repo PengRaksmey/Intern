@@ -71,8 +71,11 @@ $info = $conn->query($sql);
         </div>
         <input type="submit" name="submit" class="" value="Add"> 
     </form>
-    <a href="student.php">Go to students section</a><br>
-    <a href="index.php">GO to school section</a>
+    <div class="button-container" style="margin-top:100px;">
+  <a href="student.php">Go to students </a>
+  <a href="school.php">Go to school </a>
+  <a href="dashboard.php">Go to dashboard </a>
+</div>
 </div>
 </body>
 </html>

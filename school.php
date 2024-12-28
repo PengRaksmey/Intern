@@ -38,8 +38,12 @@ if (isset($_POST['submit'])) {
             <br>
             <input type="submit" name="submit" class="login-btn" value="Add"> 
         </form>
+        
     </div>
-    <a href="staff.php">Go to staff section</a>
-    <a href="student.php">Go to student section</a>
+    <div class="button-container"  style="margin-top: 250px;margin: 300px;">
+  <a href="student.php">Go to students</a>
+  <a href="staff.php">Go to staffs</a>
+  <a href="dashboard.php">Go to dashboard</a>
+</div>
 </body>
 </html>

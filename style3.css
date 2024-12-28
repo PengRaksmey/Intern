@@ -80,3 +80,25 @@
   .error {
     color: #dc3545;
   }
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers vertically */
+    align-items: center;    /* Centers horizontally */
+    height: 10vh;          /* Full viewport height */
+    } 
+    a:link, a:visited {
+    background-color: #007bff;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top : 80px;   width: 200px;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(255, 153, 0);
+  }
+  

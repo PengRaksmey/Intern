@@ -1,29 +1,59 @@
 .container{
     display: flex;
     justify-content: center;
-    padding: 100px;
+    padding: 50px;
     border-radius: 10px;
-    background-color: rgb(0, 110, 255);
+    background-color: rgb(238, 240, 244);
+   
+    
 }
 form{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0px 100px 0px 100px;
+    padding: 0px 100px 0px 10px;
+  
 }
 h1{
     text-align: center;
 }
 input{
     display: flex;
-    margin-top: 5px;
+    margin-top: 10px;
     padding: 10px;
-    border: 1px solid blue;
+    border: 2px solid blue;
     border-radius: 10px;
-    width: 600px;
+    width: 500px;
     height: 20px;
 }
 .login-btn{
     width: 70px;
     height: 30px;
 }
+.button-container {
+
+    display: block;
+    flex-direction: column;
+    justify-content: center; /* Centers vertically */
+    align-items: center;    /* Centers horizontally */
+    height: 10vh;
+    margin-bottom: 10px;
+    
+             /* Full viewport height */
+  }
+  
+  a:link, a:visited {
+    background-color: #007bff;
+    color: white;
+    padding: 14px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+   
+    width: 200px;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(255, 153, 0);
+  }
